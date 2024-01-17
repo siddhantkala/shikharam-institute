@@ -1,8 +1,16 @@
 import React from 'react'
+import './Companies.css'
 
 const Companies = () => {
   return (
-    <div>Companies</div>
+    <section className="c-wrapper">
+        <div className="paddings innerWidth flexCenter c-container">
+          <img src='./prologis.png'/>
+          <img src='./tower.png'/>
+          <img src='./equinix.png'/>
+          <img src='./realty.png'/>
+        </div>
+    </section>
   )
 }
 
