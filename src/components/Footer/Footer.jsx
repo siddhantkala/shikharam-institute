@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import shikharam_logooo from "../../assets/shikharam_logooo.png";
 
 const Footer = () => {
   return (
@@ -7,7 +8,8 @@ const Footer = () => {
         <div className="paddings innerWidth flexCenter f-container">
             {/* left side */}
             <div className="flexColStart f-left">
-                <img src="./logo2.png" alt="" width={120}/>
+                {/* <img src="./logo2.png" alt="" width={120}/> */}
+                <img src={shikharam_logooo} alt="" width={120}/>
                 <span className='secondaryText'>
                     Our vision is to make all people<br/>
                     the best place to live for them.

@@ -1,21 +1,24 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Biography of SuperStar",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "image": "./r1.png",
+    "url": "https://www.youtube.com/embed/QgGN0CB8jc0?si=gTxmV9WSmguCztIi"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "What is Chandrayan",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "image": "./r2.png",
+    "url": "https://www.youtube.com/embed/nhx_qOdMk9M?si=fUU1SfzdANArsLdC"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "What is Ayushman",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "image": "./r3.png",
+    "url": "https://www.youtube.com/embed/W34j0KkVQ3o?si=70jPcHroao_KbGX1"
   },
   {
     "name": "Aliva Priva Jardin",

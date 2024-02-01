@@ -3,6 +3,9 @@ import './Contact.css'
 import {MdCall} from 'react-icons/md'
 import {BsFillChatDotsFill} from 'react-icons/bs'
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
+import { Phone, Address, Email, Timings } from "../../utils/footerContent";
+import { RiWhatsappFill } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -23,24 +26,25 @@ const Contact = () => {
                                 </div>
                                 <div className="flexColStart detail">
                                     <span className='primaryText'>Call</span>
-                                    <span className='secondaryText'>89621 65653</span>
+                                    <span className='secondaryText'>{Phone.name}</span>
                                 </div>
                             </div>
-                            <div className="flexCenter button">Call Now</div>
+                            <div className="flexCenter button"><a href={Phone.link}>Call Now</a></div>
                         </div>
 
                         {/* second mode */}
                         <div className='flexColCenter mode'>
                             <div className="flexStart">
                                 <div className="flexCenter icon">
-                                    <BsFillChatDotsFill size={25}/>
+                                    {/* <BsFillChatDotsFill size={25}/> */}
+                                    <HiChatBubbleBottomCenter size={25}/>
                                 </div>
                                 <div className="flexColStart detail">
                                     <span className='primaryText'>Chat</span>
-                                    <span className='secondaryText'>89621 65653</span>
+                                    <span className='secondaryText'>{Phone.name}</span>
                                 </div>
                             </div>
-                            <div className="flexCenter button">Chat Now</div>
+                            <div className="flexCenter button"><a href={Phone.link}>Chat Now</a></div>
                         </div>
                     </div>
 
@@ -49,28 +53,29 @@ const Contact = () => {
                         <div className='flexColCenter mode'>
                             <div className="flexStart">
                                 <div className="flexCenter icon">
-                                    <BsFillChatDotsFill size={25}/>
+                                    {/* <BsFillChatDotsFill size={25}/> */}
+                                    <RiWhatsappFill size={25}/>
                                 </div>
                                 <div className="flexColStart detail">
-                                    <span className='primaryText'>Video</span>
+                                    <span className='primaryText'>WhatsApp</span>
                                     <span className='secondaryText'>89621 65653</span>
                                 </div>
                             </div>
-                            <div className="flexCenter button">Video Call Now</div>
+                            <div className="flexCenter button">WhatsApp Now</div>
                         </div>
 
                         {/* forth mode */}
                         <div className='flexColCenter mode'>
                             <div className="flexStart">
                                 <div className="flexCenter icon">
-                                    <HiChatBubbleBottomCenter size={25}/>
+                                    <MdEmail size={25}/>
                                 </div>
                                 <div className="flexColStart detail">
-                                    <span className='primaryText'>Message</span>
-                                    <span className='secondaryText'>89621 65653</span>
+                                    <span className='primaryText'>Email</span>
+                                    <span className='secondaryText'>{Email.name}</span>
                                 </div>
                             </div>
-                            <div className="flexCenter button">Message Now</div>
+                            <div className="flexCenter button"><a href={Email.link}></a>Email Us Now</div>
                         </div>
                     </div>
 

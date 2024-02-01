@@ -16,14 +16,14 @@ const Hero = () => {
                 initial={{y:"2rem",opacity:0}}
                 animate={{y:0,opacity:1}}
                 transition={{duration:2,type:"spring"}}>
-                  Dicscover <br/>
-                  Most Suitable<br/>
-                  Property
+                  Empowering <br/>
+                  Futures Through<br/>
+                  Quality Education
                 </motion.h1>
               </div>
               <div className="flexColStart hero-des"><span className='secondaryText'>
-                Find variety of property that suits you easily</span>
-                <span  className='secondaryText'>Forget all difficulties in finding a residence for you</span>
+              Unlock your academic potential with specialized guidance</span>
+                <span  className='secondaryText'>In PCM, Commerce, and comprehensive classes for grades 5-10.</span>
                 </div>
                 <div className='flexCenter search-bar'>
                   <HiLocationMarker color="var(--blue)" size={25}/>
@@ -33,21 +33,21 @@ const Hero = () => {
                 <div className="flexCenter stats">
                   <div className="flexColCenter stat">
                     <span>
-<CountUp start={8800} end={9000} duration={4}/><span>+</span>
+<CountUp start={2800} end={3000} duration={4}/><span>+</span>
                     </span>
-                    <span className='secondaryText'>Premium Products</span>
+                    <span className='secondaryText'>Students Teached</span>
                   </div>
                   <div className="flexColCenter stat">
                     <span>
-<CountUp start={100} end={120} duration={4}/><span>+</span>
+<CountUp start={0} end={4} duration={2}/><span>+</span>
                     </span>
-                    <span className='secondaryText'>Students</span>
+                    <span className='secondaryText'>Centers</span>
                   </div>
                   <div className="flexColCenter stat">
                     <span>
 <CountUp end={28} duration={4}/><span>+</span>
                     </span>
-                    <span className='secondaryText'>Award Winning</span>
+                    <span className='secondaryText'>Teachers</span>
                   </div>
                 </div>
             </div>
