@@ -23,8 +23,8 @@ const About = () => {
             </span>
           </div>
           <div className="flexEnd a-right">
-            <div className="image-container" width={120} height={20}>
-              <img src={shikharam_logosd} alt=""></img>
+            <div className="image-container-aboutus">
+              <img src={shikharam_logosd} alt="Shikhram Image"></img>
             </div>
           </div>
         </div>
